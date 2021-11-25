@@ -8,11 +8,16 @@
   font-family: 'Roboto', sans-serif; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 2160px;
+  width: 1920px; }
 
 body {
   position: relative;
   box-sizing: border-box; }
+
+.test {
+  padding: 100rem; }
 
 @font-face {
   font-family: 'SquareFont';
@@ -72,3 +77,9 @@ body {
     color: #FFFFFF;
     font-size: 4rem;
     padding-top: 7.7rem; }
+  .home-header__image {
+    position: absolute;
+    top: 44.2rem;
+    left: 14rem;
+    width: 86.3rem;
+    height: 54.8rem; }

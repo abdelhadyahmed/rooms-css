@@ -5,14 +5,22 @@
     padding: 0;
     box-sizing: inherit;
     font-family: 'Roboto', sans-serif;
+    // width: 1920px;
+    // height: 2160px;
 }
 
 html{
     // This defines what 1rem is 
     font-size: 62.5%; //16px -> 10px
+    height: 2160px;
+    width: 1920px;
 }
 
 body{
     position: relative;
     box-sizing: border-box;
+}
+
+.test{
+    padding: 100rem;
 }
