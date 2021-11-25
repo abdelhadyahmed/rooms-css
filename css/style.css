@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.mainNav {
+  height: 19.7rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #629E97; }
+
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20.8rem;
+  padding-top: 7.472rem; }
+
+.logo {
+  height: 5.428rem;
+  width: 25.8rem; }

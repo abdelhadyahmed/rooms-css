@@ -1,0 +1,34 @@
+.mainNav{
+    height: 19.7rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-primary;
+
+    &__list{
+
+    }
+
+    &__item{
+
+    }
+
+    &__link{
+
+    }
+}
+
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20.8rem;
+    padding-top: 7.472rem;
+}
+
+.logo{
+    height: 5.428rem;
+    width: 25.8rem;
+    &__quote{
+    
+    }
+}
