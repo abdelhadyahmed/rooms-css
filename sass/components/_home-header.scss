@@ -1,0 +1,25 @@
+.home-header{
+    height: 60rem;
+    background-color: $color-primary;
+    // clip-path: ellipse(53% 30% at 50% 0%);
+    border-radius: 0 0 50% 50%;
+    box-shadow: -1px 2rem 2rem rgba(0, 0, 0, .2);
+
+    &__slogan{
+        font-family: 'SquareFont' , sans-serif;
+        font-weight: 100;
+        // letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        
+        // position: absolute;
+        // top: 27.4rem;
+        // left: 47.8rem;
+        // text-align: center;
+        // height: 5.8rem;
+        // width: 96.5rem;
+        color: $color-white;
+        font-size: 4rem;
+        padding-top: 7.7rem;
+    }
+}

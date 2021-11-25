@@ -5,13 +5,18 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: 'Roboto'; }
+  font-family: 'Roboto', sans-serif; }
 
 html {
   font-size: 62.5%; }
 
 body {
+  position: relative;
   box-sizing: border-box; }
+
+@font-face {
+  font-family: 'SquareFont';
+  src: url("../../fonts/Square.ttf") format("woff"); }
 
 .mainNav {
   height: 19.7rem;
@@ -54,7 +59,16 @@ body {
     margin-top: .5rem;
     height: 4.4rem; }
 
-.ellipse {
-  height: 100rem;
+.home-header {
+  height: 60rem;
   background-color: #629E97;
-  clip-path: ellipse(53% 36% at 50% 0%); }
+  border-radius: 0 0 50% 50%;
+  box-shadow: -1px 2rem 2rem rgba(0, 0, 0, 0.2); }
+  .home-header__slogan {
+    font-family: 'SquareFont' , sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 4rem;
+    padding-top: 7.7rem; }
