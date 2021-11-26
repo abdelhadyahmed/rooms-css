@@ -23,6 +23,10 @@ body {
   font-family: 'SquareFont';
   src: url("../../fonts/Square.ttf") format("woff"); }
 
+@font-face {
+  font-family: 'segoe-ui';
+  src: url("../../fonts/segoe-ui.ttf") format("woff"); }
+
 .mainNav {
   height: 19.7rem;
   display: flex;
@@ -51,8 +55,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 20.8rem;
-  padding-top: 7.472rem;
+  margin-left: 20.8rem;
+  margin-top: 7.472rem;
   cursor: pointer; }
 
 .logo {
@@ -84,3 +88,48 @@ body {
     left: 14rem;
     width: 86.3rem;
     height: 54.8rem; }
+
+.form-box {
+  position: absolute;
+  top: 44.2rem;
+  left: 106.2rem;
+  width: 75.3rem;
+  height: 51.3rem;
+  background-color: #FFFFFF;
+  border-radius: 3.2rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  font-family: 'segoe-ui'; }
+  .form > *:not(:last-child) {
+    height: 8.9rem;
+    width: 68.2rem;
+    border-radius: 1rem; }
+  .form__input {
+    padding: 2.7rem 0 2.2rem 2.7rem;
+    border: 1px solid #629E97;
+    font-size: 3rem; }
+    .form__input::placeholder {
+      color: #9D9D9DB3; }
+    .form__input:focus {
+      outline: none; }
+    .form__input:not(:last-child) {
+      margin-bottom: 3.6rem; }
+  .form__signin {
+    font-family: "Roboto";
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #629E97;
+    border: none;
+    cursor: pointer; }
+  .form__signup {
+    font-family: "Roboto";
+    color: #629E97;
+    text-decoration: none;
+    font-size: 2.3rem;
+    margin-top: 3.2rem; }

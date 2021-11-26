@@ -15,8 +15,13 @@ $color-gray-4:#FBFBFB;
 @font-face {
     font-family: 'SquareFont';
     src: url('../../fonts/Square.ttf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }  
+}  
 
+
+@font-face {
+  font-family: 'segoe-ui';
+  src: url('../../fonts/segoe-ui.ttf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 //Box Shadow
 
 $shadow-light: 0 1rem 2rem rgba(#000000, 0.2);
