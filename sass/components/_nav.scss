@@ -53,12 +53,21 @@
     align-items: center;
     padding-left: 20.8rem;
     padding-top: 7.472rem;
+    cursor: pointer;
 }
 
 .logo{
+    // logo with svg
     height: 5.428rem;
     width: 25.8rem;
-        
+    
+    // logo with SquareFont
+
+    // color: $color-white;
+    // font-size: 8.7rem;
+    // font-family: 'SquareFont';        
+    // line-height: 5.4rem;
+    
     &__quote{
         color: $color-white;
         font-size: 3.5rem;

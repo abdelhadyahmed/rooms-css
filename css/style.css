@@ -52,7 +52,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding-left: 20.8rem;
-  padding-top: 7.472rem; }
+  padding-top: 7.472rem;
+  cursor: pointer; }
 
 .logo {
   height: 5.428rem;
