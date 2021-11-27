@@ -1,6 +1,6 @@
 // BASE FILES
-@import "./base/base";
 @import "./base/variables";
+@import "./base/base";
 
 
 // COMPONENT FILE
@@ -8,5 +8,13 @@
 @import "./components/home-header";
 @import "./components/form";
 
- 
+// Pages
+@import "./pages/home";
+
+
+ // Layout
+ @import "./layout/sponsers";
+ @import "./layout/footer";
+
+
 

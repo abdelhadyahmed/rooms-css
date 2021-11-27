@@ -1,0 +1,30 @@
+.sponsers-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -25rem;
+
+    &::before{
+        content: "";
+        // height: 3rem;
+        width: 155.2rem;
+        border-top: 5px solid $color-primary ;
+        margin-bottom: 4rem;
+    }
+
+    &::after{
+        content: "";
+        // height: 3rem;
+        width: 155.2rem;
+        border-top: 5px solid $color-primary ;
+        margin-top: 4rem;
+    }
+}
+
+.sponser{
+    width: 20.7rem;
+    height: 11.4rem;
+    // border-top:3px solid $color-primary;
+    // padding-top:3rem ;
+}

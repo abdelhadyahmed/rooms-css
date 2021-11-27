@@ -5,7 +5,8 @@
     background-color: $color-primary;
     // clip-path: ellipse(53% 30% at 50% 0%);
     border-radius: 0 0 50% 50%;
-    box-shadow: -1px 2rem 2rem rgba(0, 0, 0, .2);
+    // box-shadow: -1px 2rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 20px 20px 35px #76B1AA66;
 
     &__slogan{
         font-family: 'SquareFont' , sans-serif;

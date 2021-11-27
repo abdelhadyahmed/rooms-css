@@ -1,49 +1,42 @@
 .mainNav{
-    height: 19.7rem;
-    // max-width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: $color-primary;
     
     &__list{
         display: flex;
+        align-items: center;
+        height: 100%;
         list-style: none;
-        
     }
-
+    
     &__item{
         color: $color-white;
-        width: 12.9rem;
-        // height: 4.2rem;
         margin-top: 9.7rem;
         margin-bottom: 5.8rem;
         align-self: center;
-        // align-self: stretch;
         cursor: pointer;
+        margin-right: 7.5rem;
         
         &:not(:last-child){
-            margin-right: 3rem;
+            padding-right: 7.5rem;
             border-right: 1px solid $color-white;
         }
         
-        // &--selected{
-        //     background-color: $color-white;
-        //     color: $color-primary;
-        // }
-
-        // &:hover{
-        //     color: $color-primary;
-        //     background-color: $color-white;
-        // }
+        &:hover{
+            color: $color-primary;
+            background-color: $color-white;
+        }   
+                
     }
-    
+            
     &__link{
-        font-size: 2.3rem;
-        font-weight: 500;
-        // line-height: 4.2rem;
+        font-size: 3.5rem;
         color: inherit;
+        font-weight: 500;
         text-decoration: none;
-
+        height: 100%;
+        
     }
 }
 
@@ -53,21 +46,14 @@
     align-items: center;
     margin-left: 20.8rem;
     margin-top: 7.472rem;
+    margin-right: auto;
     cursor: pointer;
 }
 
 .logo{
-    // logo with svg
     height: 5.428rem;
     width: 25.8rem;
-    
-    // logo with SquareFont
-
-    // color: $color-white;
-    // font-size: 8.7rem;
-    // font-family: 'SquareFont';        
-    // line-height: 5.4rem;
-    
+        
     &__quote{
         color: $color-white;
         font-size: 3.5rem;
