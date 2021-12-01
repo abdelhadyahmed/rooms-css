@@ -26,15 +26,33 @@
 
     <header class="home-header">
         <h1 class="home-header__slogan">Work remotely .. Study efficiently</h1>
-        <img src="./img/person.svg" alt="logo" class="home-header__image">
 
-        <div class="form-box">
-            <form action="#" class="form">
-                <input type="tel" name="phone" id="phone" class="form__input" placeholder="Mobile Number">
-                <input type="password" name="password" id="password" class="form__input" placeholder="Password">
-                <button type="submit" class="form__signin">Sign in</button>
-                <a href="#" class="form__signup">Sign up</a>
-            </form>
+        <div class="home-header__content">
+            <img src="./img/person.svg" alt="logo" class="home-header__image">
+            <div class="form-box">
+                <form action="#" class="form">
+                    <!-- Form For Regiseter -->
+    
+                    <div class="form-2-in-row">
+                        <input type="text" name="full_name" id="full_name" class="form__input" placeholder="Full Name">
+                        <input type="tel" name="phone" id="phone" class="form__input" placeholder="Mobile Number">
+                    </div>
+                    <input type="email" name="email" id="email" class="form__input" placeholder="Email">
+                    <input type="password" name="password" id="password" class="form__input" placeholder="Password">
+                    <select name="" id="" class="form__input select">
+                        <option value="" disabled selected>Select you category</option>
+                    </select>
+                    <button type="submit" class="form__signin">Register</button>
+                    
+                    
+                    <!--Form For sign in-->
+    
+                    <!-- <input type="tel" name="phone" id="phone" class="form__input" placeholder="Mobile Number">
+                    <input type="password" name="password" id="password" class="form__input" placeholder="Password">
+                    <button type="submit" class="form__signin">Sign in</button>
+                    <a href="#" class="form__signup">Sign up</a> -->
+                </form>
+            </div>
         </div>
     </header>
 
@@ -48,10 +66,10 @@
             <span class="download__download">Download App</span>
             <span class="download__caption">Download the app and start online booking now!</span>
             <div class="download__store">
-                <img src="./img/google play.png" alt="android" class="download__store-img">
-                <img src="./img/apple store.png" alt="iphone" class="download__store-img">
+                <a href="#"><img src="./img/google play.png" alt="android" class="download__store-img"></a>
+                <a href="#"><img src="./img/apple store.png" alt="iphone" class="download__store-img"></a>
             </div>
-        </div>
+        </div>  
     </main>
 
     <div class="sponsers-box">

@@ -52,14 +52,14 @@
 
     &__store{
         display: flex;
-
+        
+        a:not(:last-child) {
+            margin-right: 6.29rem;
+        }
+        
         &-img{
             width: 32.2rem;
-            height: 9.6rem;
-
-            &:not(:last-child){
-                margin-right: 6.29rem;
-            }
+            height: 9.6rem;   
         }
     }
 }
